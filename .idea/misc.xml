@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/86185/StudioProjects/app/src/main/res/layout/activity_sport.xml" value="0.109375" />
+        <entry key="..\:/Users/86185/StudioProjects/app/src/main/res/layout/activity_sport_report.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/86185/StudioProjects/app/src/main/res/layout/fragment_health.xml" value="0.19330855018587362" />
+        <entry key="..\:/app/app/src/main/res/layout/dialog_sport_every_day_step_value.xml" value="0.24954710144927536" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

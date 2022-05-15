@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Gradle: q.rorbin:VerticalTabLayout:1.2.5@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-5.6.4-all/ankdp27end7byghfw1q2sw75f/gradle-5.6.4/caches/transforms-2/files-2.1/15b8179f2b2ff9e96806544fd7e4bbdd/jetified-VerticalTabLayout-1.2.5/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-5.6.4-all/ankdp27end7byghfw1q2sw75f/gradle-5.6.4/caches/transforms-2/files-2.1/15b8179f2b2ff9e96806544fd7e4bbdd/jetified-VerticalTabLayout-1.2.5/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-5.6.4-all/ankdp27end7byghfw1q2sw75f/gradle-5.6.4/caches/transforms-2/files-2.1/15b8179f2b2ff9e96806544fd7e4bbdd/jetified-VerticalTabLayout-1.2.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a35a6627628dc71542d3105887433efd/jetified-VerticalTabLayout-1.2.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a35a6627628dc71542d3105887433efd/jetified-VerticalTabLayout-1.2.5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a35a6627628dc71542d3105887433efd/jetified-VerticalTabLayout-1.2.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0e34a459e14d36efc773cf4d9f4e5f7d/jetified-VerticalTabLayout-1.2.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0e34a459e14d36efc773cf4d9f4e5f7d/jetified-VerticalTabLayout-1.2.5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0e34a459e14d36efc773cf4d9f4e5f7d/jetified-VerticalTabLayout-1.2.5/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-5.6.4-all/ankdp27end7byghfw1q2sw75f/gradle-5.6.4/caches/modules-2/files-2.1/q.rorbin/VerticalTabLayout/1.2.5/179e0bf195c54a0a52c99559c0c34ceaa252711c/VerticalTabLayout-1.2.5-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/q.rorbin/VerticalTabLayout/1.2.5/179e0bf195c54a0a52c99559c0c34ceaa252711c/VerticalTabLayout-1.2.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-5.6.4-all/ankdp27end7byghfw1q2sw75f/gradle-5.6.4/caches/modules-2/files-2.1/q.rorbin/VerticalTabLayout/1.2.5/38fb8740eba8f375174c1b58fdb6559612e0ad3c/VerticalTabLayout-1.2.5-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/q.rorbin/VerticalTabLayout/1.2.5/38fb8740eba8f375174c1b58fdb6559612e0ad3c/VerticalTabLayout-1.2.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

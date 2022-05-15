@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="Gradle: com.youth.xframe:xframe:1.1.2@aar">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-5.6.4-all/ankdp27end7byghfw1q2sw75f/gradle-5.6.4/caches/transforms-2/files-2.1/366dd228e827a0764b256ccaf566162d/jetified-xframe-1.1.2/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/10a13f241aa783dab93f848dbfa9ebcc/jetified-xframe-1.1.2/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f18da9ff3eef326d3bb6d2da5b633e86/jetified-xframe-1.1.2/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-5.6.4-all/ankdp27end7byghfw1q2sw75f/gradle-5.6.4/caches/transforms-2/files-2.1/366dd228e827a0764b256ccaf566162d/jetified-xframe-1.1.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-5.6.4-all/ankdp27end7byghfw1q2sw75f/gradle-5.6.4/caches/transforms-2/files-2.1/366dd228e827a0764b256ccaf566162d/jetified-xframe-1.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-5.6.4-all/ankdp27end7byghfw1q2sw75f/gradle-5.6.4/caches/transforms-2/files-2.1/366dd228e827a0764b256ccaf566162d/jetified-xframe-1.1.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/10a13f241aa783dab93f848dbfa9ebcc/jetified-xframe-1.1.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/10a13f241aa783dab93f848dbfa9ebcc/jetified-xframe-1.1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/10a13f241aa783dab93f848dbfa9ebcc/jetified-xframe-1.1.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f18da9ff3eef326d3bb6d2da5b633e86/jetified-xframe-1.1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f18da9ff3eef326d3bb6d2da5b633e86/jetified-xframe-1.1.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f18da9ff3eef326d3bb6d2da5b633e86/jetified-xframe-1.1.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/wrapper/dists/gradle-5.6.4-all/ankdp27end7byghfw1q2sw75f/gradle-5.6.4/caches/modules-2/files-2.1/com.youth.xframe/xframe/1.1.2/ad01d1b6a76a00a890dd58735740774cd0048b8c/xframe-1.1.2-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.youth.xframe/xframe/1.1.2/ad01d1b6a76a00a890dd58735740774cd0048b8c/xframe-1.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

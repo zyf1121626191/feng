@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="entries_sex">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+
+    <string-array name="entries_medical_suggestion">
+        <item>我收到的</item>
+        <item>我发出的</item>
+    </string-array>
+
+</resources>
