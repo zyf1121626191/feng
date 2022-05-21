@@ -21,9 +21,6 @@ import com.example.myapp.model.common.util.http.Http
 import com.example.myapp.model.entity.SysUser
 import com.example.myapp.model.eventbus.StepValueChange
 import com.example.myapp.serives.StepService
-import com.xiaomi.channel.commonutils.logger.LoggerInterface
-import com.xiaomi.mipush.sdk.Logger
-import com.xiaomi.mipush.sdk.MiPushClient
 import com.youth.xframe.BuildConfig
 import com.youth.xframe.XFrame
 import com.youth.xframe.base.XApplication
@@ -51,25 +48,6 @@ class App : XApplication(), ViewModelStoreOwner, Handler.Callback {
         super.onCreate()
         XFrame.initXLog().isDebug = BuildConfig.DEBUG
         Http.init(OkHttpEngine())
-        //初始化push推送服务
-        if (shouldInit()) {
-            MiPushClient.registerPush(this, APP_ID, APP_KEY)
-        }
-        //打开Log
-        val newLogger: LoggerInterface = object : LoggerInterface {
-            override fun setTag(tag: String) {
-                // ignore
-            }
-
-            override fun log(content: String, t: Throwable) {
-                Log.d(TAG, content, t)
-            }
-
-            override fun log(content: String) {
-                Log.d(TAG, content)
-            }
-        }
-        Logger.setLogger(this, newLogger)
         transCtrl.setListener { array ->
             run {
                 if (array != null) {

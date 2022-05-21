@@ -9,7 +9,6 @@ import androidx.navigation.ui.setupWithNavController
 import com.example.myapp.App
 import com.example.myapp.R
 import com.example.myapp.view.base.AbstractActivity
-import com.xiaomi.mipush.sdk.MiPushClient
 import com.youth.xframe.widget.XToast
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -35,7 +34,6 @@ class MainActivity : AbstractActivity() {
     }
 
     override fun initData(savedInstanceState: Bundle?) {
-        MiPushClient.setUserAccount(this, App.user.id.toString(), null)
         val navHostFragment =
             supportFragmentManager.findFragmentById(R.id.nav_host_fragment_container) as NavHostFragment
         val navController = navHostFragment.navController
