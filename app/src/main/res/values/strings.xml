@@ -36,7 +36,9 @@
     <string name="normal">正常</string>
     <string name="fatter">偏胖</string>
     <string name="zero">0</string>
+    <string name="bpm">BPM</string>
     <string name="step_value">步数</string>
+    <string name="heart_rate_value">心率</string>
     <string name="start_time">入睡时间</string>
     <string name="end_time">起床时间</string>
     <string name="confirm">确定</string>
