@@ -21,6 +21,7 @@ import com.example.myapp.model.common.util.http.Http
 import com.example.myapp.model.entity.SysUser
 import com.example.myapp.model.eventbus.StepValueChange
 import com.example.myapp.serives.StepService
+import com.example.myapp.view.fragment.health.HealthFragment
 import com.youth.xframe.BuildConfig
 import com.youth.xframe.XFrame
 import com.youth.xframe.base.XApplication
@@ -29,6 +30,7 @@ import com.youth.xframe.utils.XPreferencesUtils
 import com.youth.xframe.widget.XToast
 import org.greenrobot.eventbus.EventBus
 import java.io.IOException
+import java.lang.ref.WeakReference
 import java.util.*
 
 class App : XApplication(), ViewModelStoreOwner, Handler.Callback {
@@ -53,10 +55,16 @@ class App : XApplication(), ViewModelStoreOwner, Handler.Callback {
                 if (array != null) {
                     val ir = array[0] / 1000.0
                     Toast.makeText(this, ir.toString(), Toast.LENGTH_SHORT).show()
+                    Handler(Looper.getMainLooper()).post {
+                        healthFragment?.get()?.updateHeartRate(ir)
+                    }
                     Log.d("BluetoothDebug", "data == $ir")
                 }
             }
         }
+//        Handler(Looper.getMainLooper()).postDelayed({
+//            healthFragment?.get()?.updateHeartRate(45.67)
+//        },3000)
     }
 
     var isInited = false
@@ -203,6 +211,8 @@ class App : XApplication(), ViewModelStoreOwner, Handler.Callback {
 
         @JvmStatic
         lateinit var user: SysUser
+
+        var healthFragment: WeakReference<HealthFragment>? = null
 
         /**
          * 文字复制到剪切板

@@ -48,6 +48,7 @@ import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
 import java.io.File
 import java.io.FileOutputStream
+import java.lang.ref.WeakReference
 import java.text.DecimalFormat
 import java.util.*
 
@@ -76,6 +77,13 @@ class HealthFragment : AbstractFragment(), View.OnClickListener {
         arguments?.let {
             userId = it.getLong(ARG_USER_ID)
         }
+        App.healthFragment = WeakReference(this)
+    }
+
+    public fun updateHeartRate(value: Double)
+    {
+        val textView = text_view_heart_rate
+        textView?.text = value.toString()
     }
 
     override fun getLayoutId(): Int {

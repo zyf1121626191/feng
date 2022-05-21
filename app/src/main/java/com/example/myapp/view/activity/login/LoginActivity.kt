@@ -1,12 +1,10 @@
 package com.example.myapp.view.activity.login
 
 import android.Manifest
-import android.content.pm.PackageManager
 import android.os.Build
 import android.os.Bundle
 import android.view.Menu
 import androidx.annotation.RequiresApi
-import androidx.core.content.ContextCompat
 import com.example.myapp.App
 import com.example.myapp.R
 import com.example.myapp.view.base.AbstractActivity

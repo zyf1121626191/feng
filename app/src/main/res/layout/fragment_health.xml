@@ -76,12 +76,13 @@
                             app:layout_constraintTop_toBottomOf="@id/text_view0"
                             tools:ignore="ContentDescription" />
 
-                        <com.robinhood.ticker.TickerView
+                        <TextView
                             android:id="@+id/text_view_heart_rate"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="20dp"
                             android:layout_marginTop="@dimen/card_view_padding"
+                            android:textColor="#000000"
                             android:text="77.43"
                             android:textSize="30sp"
                             app:layout_constraintBottom_toBottomOf="parent"

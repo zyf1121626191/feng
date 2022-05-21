@@ -6,7 +6,6 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
-import com.example.myapp.App
 import com.example.myapp.R
 import com.example.myapp.view.base.AbstractActivity
 import com.youth.xframe.widget.XToast
